@@ -39,20 +39,18 @@ html {
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
+  background-position: left 180px;
   background-repeat: no-repeat;
-  background-position: 10% 20%;
-  background-size: 128px auto;
+  background-size: 100px;
+  padding-top: 300px;
 }
 
 .banner {
-  background-image: url("../images/banner.jpg"), linear-gradient(to bottom, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0));
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(to top, rgba(16, 52, 41, .8) 0%, rgba(16, 52, 41, 0) 30%), url("../images/banner.jpg");
+  background-position: center bottom, center bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
   border-bottom: 3px solid #588477;
-  padding-top: 75%;
-  display: block;
-  position: relative;
 }
 
 @media only screen and (min-width: 60em) {
